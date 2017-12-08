@@ -1,0 +1,19 @@
+{
+  "name": "ip-linter-configuration",
+  "version": "0.0.1",
+  "description": "Interactive Pioneers web-development linter configuration files.",
+  "keywords": [],
+  "bugs": "https://github.com/interactive-pioneers/linter-configuration/issues",
+  "licenses": [],
+  "author": "Interactive Pioneers GmbH",
+  "contributors": "Interactive Pioneers GmbH",
+  "homepage": "https://www.interactive-pioneers.de",
+  "engines": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/interactive-pioneers/linter-configuration"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {}
+}
