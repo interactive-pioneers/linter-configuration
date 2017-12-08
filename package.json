@@ -18,6 +18,5 @@
   "scripts": {
     "install": "ln -s files/.htmlhintrc /",
     "uninstall": ""
-  },
-  
+  }  
 }
