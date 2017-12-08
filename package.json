@@ -16,7 +16,7 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "install": "ln -s node_modules/ip-linter-configuration/files/.htmlhintrc .",
-    "uninstall": ""
+    "install": "ln -s node_modules/ip-linter-configuration/files/.htmlhintrc . && ln -s node_modules/ip-linter-configuration/files/.jscsrc . && ln -s node_modules/ip-linter-configuration/files/.jshintrc . && ln -s node_modules/ip-linter-configuration/files/.sass-lint.yml .",
+    "uninstall": "rm .htmlhintrc && rm .jscsrc && rm .jshintrc && rm .sass-lint.yml"
   }
 }
