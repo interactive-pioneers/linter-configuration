@@ -1,6 +1,6 @@
 {
   "name": "ip-linter-configuration",
-  "version": "0.0.6",
+  "version": "0.0.4",
   "description": "Interactive Pioneers web-development linter configuration files.",
   "keywords": [],
   "bugs": "https://github.com/interactive-pioneers/linter-configuration/issues",
@@ -16,7 +16,7 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "install": "concurrently \"ln -s node_modules/ip-linter-configuration/files/.htmlhintrc .\" \"ln -s node_modules/ip-linter-configuration/files/.jscsrc .\" \"ln -s node_modules/ip-linter-configuration/files/.jshintrc .\" \"ln -s node_modules/ip-linter-configuration/files/.sass-lint.yml .\"",
-    "uninstall": "rm .htmlhintrc | rm .jscsrc | rm .jshintrc | rm .sass-lint.yml | rm ../conventions/README.md"
+    "install": "ln -s node_modules/ip-linter-configuration/files/.htmlhintrc .",
+    "uninstall": "rm .htmlhintrc"
   }
 }
