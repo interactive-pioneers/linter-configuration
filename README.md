@@ -1,2 +1,3 @@
-# linter-configuration
-Linter configuration files
+# Linter configuration
+
+Interactive Pioneers web-development linter configuration files.
