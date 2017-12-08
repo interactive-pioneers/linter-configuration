@@ -15,5 +15,9 @@
   },
   "dependencies": {},
   "devDependencies": {},
-  "scripts": {}
+  "scripts": {
+    "install": "ln -s files/.htmlhintrc /",
+    "uninstall": ""
+  },
+  
 }
