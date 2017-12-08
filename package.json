@@ -17,6 +17,6 @@
   "devDependencies": {},
   "scripts": {
     "install": "ln -s node_modules/ip-linter-configuration/files/.htmlhintrc .",
-    "uninstall": "rm .htmlhintrc"
+    "uninstall": ""
   }
 }
