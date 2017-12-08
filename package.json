@@ -1,6 +1,6 @@
 {
   "name": "ip-linter-configuration",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Interactive Pioneers web-development linter configuration files.",
   "keywords": [],
   "bugs": "https://github.com/interactive-pioneers/linter-configuration/issues",
@@ -18,5 +18,5 @@
   "scripts": {
     "install": "ln -s files/.htmlhintrc /",
     "uninstall": ""
-  }  
+  }
 }
