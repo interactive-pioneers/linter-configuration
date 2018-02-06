@@ -16,7 +16,7 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "install": "ln -s node_modules/ip-linter-configuration/files/.htmlhintrc .",
+    "postinstall": "ln -s node_modules/ip-linter-configuration/files/.htmlhintrc .",
     "uninstall": ""
   }
 }
