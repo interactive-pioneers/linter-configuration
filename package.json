@@ -1,6 +1,6 @@
 {
   "name": "ip-linter-configuration",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Interactive Pioneers web-development linter configuration files.",
   "keywords": [],
   "bugs": "https://github.com/interactive-pioneers/linter-configuration/issues",
