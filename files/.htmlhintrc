@@ -12,6 +12,5 @@
   "style-disabled": true,
   "tag-pair": true,
   "tagname-lowercase": true,
-  "title-require": true,
-  "test" : "robin"
+  "title-require": true
 }
