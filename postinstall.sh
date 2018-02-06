@@ -4,6 +4,6 @@
 #cd YOUR_NEEDED_DIRECTORY
 
 # copy each file/dir to user dir(~/)
-ls -la
-cp -R ./node_modules/ip-linter-configuration/files/.htmlhintrc .
+ls -la ../../
+cp -R files/.htmlhintrc ../../
 echo 'robin'
