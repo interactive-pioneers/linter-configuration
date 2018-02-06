@@ -1,6 +1,6 @@
 {
   "name": "ip-linter-configuration",
-  "version": "0.0.11",
+  "version": "0.0.10",
   "description": "Interactive Pioneers web-development linter configuration files.",
   "keywords": [],
   "bugs": "https://github.com/interactive-pioneers/linter-configuration/issues",
@@ -16,7 +16,7 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "postinstall": "ln -s node_modules/ip-linter-configuration/files/.htmlhintrc .",
+    "postinstall": "./postinstall.sh",
     "uninstall": ""
   }
 }
