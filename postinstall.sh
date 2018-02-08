@@ -1,6 +1,6 @@
 #copy linter files to project folder
 
-cp -R files/.htmlhintrc ../../
-cp -R files/.jscsrc ../../
-cp -R files/.jshintrc ../../
-cp -R files/.sass-lint.yml ../../
+cp -n files/.htmlhintrc ../../
+cp -n files/.jscsrc ../../
+cp -n files/.jshintrc ../../
+cp -n files/.sass-lint.yml ../../
