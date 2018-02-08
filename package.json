@@ -16,7 +16,6 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "postinstall": "./postinstall.sh",
-    "uninstall": "./uninstall.sh"
+    "postinstall": "./postinstall.sh"
   }
 }
