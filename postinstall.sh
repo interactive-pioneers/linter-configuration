@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # if ! [ -f ../../.htmlhintrc ]
 # then
 # cp files/.htmlhintrc ../../.htmlhintrc
