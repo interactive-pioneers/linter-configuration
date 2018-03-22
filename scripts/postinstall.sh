@@ -1,5 +1,4 @@
 #!/bin/bash
-#copy linter files to project folder
 
 if ! [ -e ../../.htmlhintrc ]
 then
