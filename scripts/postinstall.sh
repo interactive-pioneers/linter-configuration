@@ -1,20 +1,21 @@
 #!/bin/bash
 
-if ! [ -e ../../.htmlhintrc ]
+if ! [ -f ../../.htmlhintrc ]
 then
-cp -u files/.htmlhintrc ../../.htmlhintrc
+cp ../files/.htmlhintrc ../../.htmlhintrc
 fi
 
-if ! [ -e ../../.jscsrc ]
+if ! [ -f ../../.jscsrc ]
 then
-cp -u files/.jscsrc ../../.jscsrc
+cp ../files/.jscsrc ../../.jscsrc
 fi
 
-if ! [ -e ../../.jshintrc ]
+if ! [ -f ../../.jshintrc ]
 then
-cp -u files/.jshintrc ../../.jshintrc
+cp ../files/.jshintrc ../../.jshintrc
 fi
 
-if ! [ -e ../../.sass-lint.yml ]
+if ! [ -f ../../.sass-lint.yml ]
 then
-cp -u files/.sass-lint.yml ../../.sass-lint.yml
+cp ../files/.sass-lint.yml ../../.sass-lint.yml
+fi
