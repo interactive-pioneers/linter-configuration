@@ -24,7 +24,7 @@ rules:
   clean-import-paths:
     - 1
     - filename-extension: false
-      leading-underscore: false
+      leading-underscore: true
   declarations-before-nesting: 1
   empty-args:
     - 0
