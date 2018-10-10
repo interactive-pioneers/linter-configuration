@@ -1,8 +1,3 @@
-if ! [ -f ../../.htmlhintrc ]
-then
-cp files/.htmlhintrc ../../.htmlhintrc
-fi
-
 if ! [ -f ../../.jscsrc ]
 then
 cp files/.jscsrc ../../.jscsrc
